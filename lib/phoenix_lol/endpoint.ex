@@ -33,7 +33,7 @@ defmodule PhoenixLol.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_phoenix_lol_key",
-    signing_salt: "EBuiWEZt"
+    signing_salt: "D9+xctWp"
 
   plug PhoenixLol.Router
 end
