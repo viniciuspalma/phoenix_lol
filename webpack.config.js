@@ -3,5 +3,13 @@ module.exports = {
   output: {
     path: "./priv/static/js",
     filename: "app.js"
+  },
+  module: {
+    loaders: [
+      {
+        test: /\.scss$/,
+        loaders: ['style', 'css', 'sass']
+      }
+    ]
   }
 };
